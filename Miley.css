@@ -1,0 +1,74 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.nav{
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.nav ol{
+    display: flex;
+    gap: 85px;
+}
+.nav ol>li{
+    list-style: none;
+}
+.nav ol>li>a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+.search{
+    background-color: wheat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.search input{
+    width: 50%;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.search button{
+    background-color: black;
+    color: white;
+    width: 55px;
+    height: 25px;
+}
+
+.card{
+    width: 100%;
+    height: 500px;
+    background-color: wheat;
+    padding: 5px;
+    display: flex;
+}
+.card .profile{
+    width: 50%;
+    height: 100%;
+    background: center/cover url('https://ew.com/thmb/-LseHO_nvJkvHG6UyWP0jVMfINI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Miley-Cyrus-052023-d351adcb011d4937bea7a8633ac8acba.jpg');
+}
+.info{
+    width: 50%;
+    height: 100%;
+    border-radius: 5px solid black;
+}
+.info p{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    color: black;
+}
